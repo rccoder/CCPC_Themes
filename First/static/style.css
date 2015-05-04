@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif, "SimSun";
+}
+body {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    background: url(./image/background-strong.png);
+}
+header{
+	height: 150px;
+}
+header img{
+	height: 140px;
+	float: left;
+	margin-left: 10%
+}
+header .title h1{
+	padding-top: 60px;
+	float:right;
+	margin-right: 20%;
+}
+nav {
+  height: 80px;
+}
+.nav-tabs {
+  border-bottom: 2px solid #DDD;
+  padding: 2px;
+  float: right;
+  margin-right: 10%; 
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+  position: relative;
+  display: block;
+}
+.nav-tabs > li > a{
+  margin-left: 2px;
+  line-height: 1.42857;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0px 0px;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.nav-tabs > li.active > a {
+  color: red;
+  background: #EEE;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #DDD #DDD transparent;
+}
+.nav-tabs > li > a:hover {
+  color: red;
+  background: #EEE;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #DDD #DDD transparent;
+}
+.content {
+	min-height: 700px;
+}
+footer {
+	padding-bottom: 30px;
+}
+.slides {
+	width: 80%;
+	margin: 0 auto;
+}
+.slides img {
+	height: 400px;
+}
+#slides {
+  display: none
+}
+
+#slides .slidesjs-navigation {
+  margin-top:3px;
+}
+
+#slides .slidesjs-previous {
+  margin-right: 5px;
+  float: left;
+}
+
+#slides .slidesjs-next {
+  margin-right: 5px;
+  float: left;
+}
+
+.slidesjs-pagination {
+  margin: 6px 0 0;
+  float: right;
+  list-style: none;
+}
+
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(img/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+  color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+  color: #9e2020
+}
+
+.navbar {
+  overflow: hidden
+}
+.tt h3 {
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+.time {
+  margin-bottom: 30px;
+}
+.time b {
+  color: red;
+  font-size: 20px;
+  padding-left: 3em;
+}
+.post .title h4{
+	font-size: 20px;
+	font-weight: normal;
+  margin-left: 2em;
+	padding-left: 1em;
+	border-bottom: 1px dashed #F2F2F2;
+  background: url("./image/ic.gif") no-repeat scroll 0px 7px transparent
+}
+.post .title h4 a{
+  color: red;
+}
+.post-title h1{
+    text-align: center;
+}
+.post-content {
+  margin-bottom: 50px;
+}
+.post-content p {
+  font-size: 120%;
+}
+.post-recent > ul > li {
+  list-style: square;
+  margin-left: 2em;
+}
+.post-recent > ul > li > a {
+  color: red;
+  line-height: 180%;
+ }
