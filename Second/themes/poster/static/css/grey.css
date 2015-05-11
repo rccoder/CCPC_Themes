@@ -16,13 +16,11 @@ h5{ font-size: 0.75rem; }
 h6{ font-size: 0.5rem; }
 
 #banner{
-    background: #3A5A95;
-    height:120px;
+    background: #f1f1f1;
+    height:90px;
     padding:5px 0;
 }
-#banner h1{
-   color: white;
-}
+
 /* Navigation */
 .navbar-default{
     height:62px;

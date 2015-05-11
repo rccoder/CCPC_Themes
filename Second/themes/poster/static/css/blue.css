@@ -14,14 +14,14 @@ h3{ font-size: 1.25rem; }
 h4{ font-size: 1rem; }
 h5{ font-size: 0.75rem; }
 h6{ font-size: 0.5rem; }
-
-
 #banner{
-    background: #f1f1f1;
-    height:90px;
+    background: rgb(165, 0, 33);
+    height:120px;
     padding:5px 0;
 }
-
+#banner h1{
+   color: white;
+}
 /* Navigation */
 .navbar-default{
     height:62px;
@@ -57,7 +57,6 @@ h6{ font-size: 0.5rem; }
     margin-left:0 !important;
 }
 .navbar-default .nav .ion{
-    color: #555;
     font-size:18px;
 }
 .navbar-default .navbar-header .navbar-toggle {
@@ -66,6 +65,17 @@ h6{ font-size: 0.5rem; }
     padding: 10px 15px;
     margin: 10px;
     background: transparent;
+}
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:active,
+.navbar-default .navbar-nav>.active>a:hover{
+    background-color: #2BA5D0;
+    color:#fff;
+}
+/* Slides */
+
+.carousel > .carousel-inner > .item h3{
+    color:inherit;
 }
 
 /* Content box */
@@ -78,7 +88,7 @@ h6{ font-size: 0.5rem; }
 }
 .box > .box-heading {
     padding: 15px 30px;
-    border-bottom: 1px solid #ebeae8;
+    border-bottom: 2px solid #2BA5F3;
 }
 .box > .box-content {
     position: relative;
@@ -89,6 +99,12 @@ h6{ font-size: 0.5rem; }
 }
 .box > .box-content.lower{
     border-radius:0 0 4px 4px;
+}
+.box > .box-content.split{
+    border-top:1px solid #e7e7e7;
+}
+.box > .box-content.compact{
+    padding:10px 30px;
 }
 .box > .box-heading h2 {
     font-size: 1.125rem;
@@ -101,7 +117,19 @@ h6{ font-size: 0.5rem; }
 .typo *:last-child{
     margin-bottom:0;
 }
+.typo h1 > a, .typo h2 > a, .typo h3 > a, .typo h4 > a, .typo h5 > a, .typo h6 > a{
+    border-bottom:none;
+}
+p.meta{
+    color:#999;
+}
 
+/* Btn */
+.btn-success{
+    color: #fff;
+    background-color: #2BA5F3;
+    border-color: #2BA5F3;
+}
 /* Titles */
 h2.featured{
     text-align:center;
@@ -109,6 +137,7 @@ h2.featured{
 }
 
 /* Lists */
+#sidebar > .box ul > li:before,
 ul.list > li:before{
     content: '\00BB';
     padding-right:5px;
